@@ -443,6 +443,7 @@ done
 }
 
 case "$1" in
+
 hardware)
 hardware
 ;;
@@ -488,7 +489,9 @@ traffic
 all)
 hardware;arp;route;socket;os;cpu;mem;disk;cpu_top10;mem_top10;fileuse;traffic;
 ;;
+
 *)
+
 echo "Usage : kinfo [item]"
 echo -e "\titem list\n\t-----------\n\thardware\n\tarp\n\troute\n\tsocket\n\tos\n\tcpu\n\tcpu_monit\n\tmem\n\tdisk\n\tctop\n\tmtop\n\tprocinfo\n\tfileuse\n\ttraffic"
 exit 1
