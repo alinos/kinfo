@@ -29,6 +29,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %changelog
 * Mon Sep 28 2013 alinos <alinos@alinos.net>
+- 0.1.3
 - rename kinfo
 - cpu monitoring algorithm change (top command calculator)
 - disk monitoring system change
@@ -38,10 +39,3 @@ rm -rf $RPM_BUILD_ROOT
 - BUG FIX cpu sequence change NICE <-> SYSTEM
 - cpu monit add
 - cpu chart add
-* Wed Jul 03 2013 alinos <ickhyun.kang@orangecrew.com>
-- 0.1.1
-- c2sinfo -> ocinfo change
-- ocinfo script rpm packaging
-* Wed Dec 05 2012 alinos <ickhyun@com2us.com>
-- 0.1.0
-- c2sinfo script rpm packaging
