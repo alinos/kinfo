@@ -178,7 +178,7 @@ cpu_monit () {
 	        echo -en "interval?(recommended 5sec) : "
         	        read interval
 
-		if [ $interval -qt 0 ];
+		if [ $interval -gt 0 ];
 
 		then
 
